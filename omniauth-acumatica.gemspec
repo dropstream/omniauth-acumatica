@@ -2,11 +2,11 @@
 require File.expand_path('../lib/omniauth-acumatica/version', __FILE__)
 
 Gem::Specification.new do |gem|
-  gem.authors       = ["Acumatica"]
+  gem.authors       = ["Dropstream"]
   gem.email         = [""]
   gem.description   = %q{Acumatica OAuth2 strategy for OmniAuth}
   gem.summary       = %q{Acumatica OAuth2 strategy for OmniAuth}
-  gem.homepage      = ""
+  gem.homepage      = "https://github.com/dropstream/omniauth-acumatica"
   gem.license       = "MIT"
 
   gem.files         = `git ls-files`.split($\)

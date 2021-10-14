@@ -40,9 +40,8 @@ Expected from Acumatica (as noted in their documentation at https://developers.a
 {
   "access_token":"secret_secretihaveasecret",
   "token_type":"bearer",
-  "scope":"read_store_profile update_catalog",
-  "store_id":1003,
-  "public_token":"public_qKDUqKkNXzcj9DejkMUqEkYLq2E6BXM9"
+  "refresh_token":"read_store_profile update_catalog",
+  "expires_in":1003,
 }
 ```
 
@@ -53,7 +52,7 @@ Strategy Output (`auth_hash`):
   "provider"=>"acumatica",
   "uid"=>1003,
   "info"=>{},
-  "credentials"=>{"token"=>"secret_secretihaveasecret", "expires"=>false},
+  "credentials"=>{"token"=>"secret_secretihaveasecret", "refresh_token"=>"secret_secretihaveasecret", "token_type" => "bearer", "expires_at" => 342423423, "expires"=>true},
   "extra"=>{}
 }
 ```
